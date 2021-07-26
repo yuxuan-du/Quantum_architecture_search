@@ -1,2 +1,0 @@
-# Quantum Architecture Search
-Test
