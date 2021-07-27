@@ -60,6 +60,12 @@ qiskit==0.20.1
 
 (a) The illustration of some examples in D with first two features. (b) The implementation of the quantum kernel classifier for benchmarking. The quantum gates highlighted by dashed box refer to the encoding layer that transforms the classical input x^{(i)} into the quantum state. The quantum gates located in the solid box refer to the block U_l(\theta). (c) The output ansatz of QAS under the noisy setting. (d) The validation accuracy of QAS under the noiseless case. The label "Epc=a, W =b" represents that the number of epochs and supernets is T=a and W=b, respectively. The x-axis means that the validation accuracy of the sampled ansatz is in the range of [c,d), e.g., c=0.5, and d=0.6. (e) The comparison of QAS between the noiseless and noisy cases. The hyper-parameters setting for both cases is T=400, K=500, and W=5. The meaning of x-axis is identical to the subfigure (c). (f) The performance of the quantum kernel classifier (labeled by "Test_acc_baseline") and QAS (labeled by "Train/Test_acc") at the fine tuning stage under the noisy setting.
 
+* Quantum Chemistry
+
+![](assests/noisy_chem.png)
+
+(a) The implementation of VQE with the hardware-efficient ansatz. (b) The output ansatz of QAS under the noisy setting. (c) The training performance of VQE under the noisy and noiseless settings. The label "Exact" refers to the accurate ground state energy E_m for Hydrogen. (d) The performance of QAS under both the noisy and noiseless settings. (e) The performance of QAS at the ranking state. The label "W=b" refers to the number of supernets, i.e., W=b. The x-axis means that the estimated energy of the sampled ansatz is in the range of (c,d], e.g., c=-0.6 Ha, and  d=-0.8 Ha. 
+
 ---
 
 ## Citation
