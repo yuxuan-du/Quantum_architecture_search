@@ -3,7 +3,7 @@ This repository includes code in our paper "[Quantum circuit architecture search
 
 To maximally improve the robustness and trainability of variational quantum algorithms (such as quantum neural networks, variational quantum eigensolvers, and quantum approximate optimization algorithms), here we devise a resource and runtime efficient scheme termed quantum architecture search  (QAS). In particular, given a learning task, QAS automatically seeks a near optimal ansatz (i.e., quantum circuit architecture) to balance benefits and side-effects brought by adding more noisy quantum gates.
 
-Note: To use IBMQ backend, please register an account first.
+Note: To use IBMQ backend, please register an account first. The folder "machine_learning_large_memory" includes the code of dynamically saving trainable paramters when the number of qubits or the circuit depth becomes large.
 
 ![](assests/paradigm.png)
 
